@@ -13,7 +13,7 @@
 	dh $@
 
 override_dh_auto_build:
-	make all FCOPTS='-O3 -fallow-argument-mismatch -Wall'
+	make all
 
 override_dh_auto_clean:
 	make clean
